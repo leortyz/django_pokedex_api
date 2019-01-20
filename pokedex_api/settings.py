@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     # Externals apps
     'django_extensions',
+
+    # Internals apps
+    'pokedex.apps.PokedexConfig'
 ]
 
 MIDDLEWARE = [

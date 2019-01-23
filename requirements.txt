@@ -1,2 +1,4 @@
 Django==2.1.5
 django-extensions==2.1.4
+graphene-django==2.2.0
+ipython==7.2.0

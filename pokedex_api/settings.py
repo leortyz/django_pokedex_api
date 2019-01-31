@@ -106,6 +106,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Graphene Config
+
+GRAPHENE = {
+    'SCHEMA': 'pokedex_api.schema.schema',
+    'MIDDLEWARE': [
+        'graphene_django.debug.DjangoDebugMiddleware',
+    ]
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/

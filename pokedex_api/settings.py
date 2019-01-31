@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # Externals apps
     'django_extensions',
     'graphene_django',
+    'django_filters',
 
     # Internals apps
     'pokedex.apps.PokedexConfig'
